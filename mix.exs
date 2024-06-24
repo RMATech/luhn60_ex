@@ -23,10 +23,6 @@ defmodule Luhn.Mixfile do
     ]
   end
 
-  def application do
-    [applications: [:logger], extra_applications: [:propcheck]]
-  end
-
   defp deps do
     [
       {:excoveralls, "~> 0.3", only: :dev},
